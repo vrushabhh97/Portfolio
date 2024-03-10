@@ -17,9 +17,12 @@ const Hero = () => {
           className='text-[#915eff]'>Vrushabh</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           💻 A passionate software developer  <br className='sm:block hidden'/> 
-          ⚡ Fun fact: I'm a biker! 🏍️ I love mechanical keyboards! ⌨️</p>
+          ⚡ Fun fact: I'm a biker! 🏍️ I love mechanical keyboards! ⌨️
+          </p>
         </div>
       </div>
+
+      <ComputersCanvas /> 
     </section>
   )
 }
