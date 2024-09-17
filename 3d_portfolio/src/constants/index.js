@@ -17,12 +17,17 @@ import {
     docker,
     meta,
     starbucks,
+    scu_logo,
+    geenuity_logo,
+    birlasoft_logo,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    tiktok_logo,
+    netflix_logo,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +47,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Research Assistant",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Machine Learning Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Mechanical Keyboard Enthusiast",
       icon: creator,
     },
   ];
@@ -116,55 +121,55 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Research Assistant",
+      company_name: "Santa Clara University",
+      icon: scu_logo,
+      iconBg: "#FFFFFF",
+      date: "September 2023 - September 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a solution using FisheyeViT to convert 2D fisheye images into 3D heatmaps, enabling accurate egocentric 3D pose estimation.",
+        "Built a reusable Android/iOS TikTok clone app with Flutter SDK for research on sludge video content, featuring facial data recording, user interaction data capture, and integrated gaze tracking using Python to record pupil coordinates.",
+        "Performed comprehensive data analysis using SPSS on app-recorded and Qualtrics data, including covariance analysis, t-tests for significance, and principal component analysis, and visualized results with Python.",
+        "Created an immersive VR escape room game using Unity 3D engine and C++, incorporating advanced gameplay elements such as grabbable and destructible objects, sockets, puzzles, and teleportation.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Development Intern",
+      company_name: "ANTEMATTR",
+      icon: geenuity_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2024 - September 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Researched Nixtla TimeGPT, NeuralForecast, and AWS Forecast to integrate time forecasting functionality in Geenuity’s AI agent.",
+        "Developed RESTful APIs with Python using FastAPI and containerized the app on Docker. Tested APIs with Postman.",
+        "Designed interactive user interface using Bubble, incorporating charts for visualizing time forecast API response data in JSON.",
+        "Integrated LLMs using Flowise to develop an autonomous AI agent, capable of executing diverse tasks and optimizing content delivery.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Machine Learning Developer",
+      company_name: "Farmia",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "April 2023 - September 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Engineered a VGG19-based deep learning model using Keras and TensorFlow for accurate classification of plant diseases from images.",
+        "Implemented image preprocessing and data augmentation strategies, and transfer learning techniques to enhance model performance.",
+        "Fine-tuned model through early stopping and model checkpointing, achieving high accuracy in disease classification.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Software Developer",
+      company_name: "Birlasoft",
+      icon: birlasoft_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2021 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Promoted to MES Consultant within 18 months. Took over maintenance of NoMuda VisualFactory implemented for Proterra.",
+        "Collaborated closely with the development team for debugging and resolving high priority issues in an agile setting.",
+        "Completed Piston Protrusion Management System project for Cummins India Ltd., replaced old system with a new Ignition software.",
+        "Developed SCADA HMI screens and PLC programs for building management system, chiller plant, air handler unit for Entegris.",
+        "Curated proof of concepts for manufacturing plant on Ignition platform scripted in Python and live PLC data."
       ],
     },
   ];
@@ -198,67 +203,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Android/iOS TikTok Clone App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Built a reusable Android/iOS TikTok clone app with Flutter SDK for research on sludge video content, featuring facial data recording, user interaction data capture, and integrated gaze tracking using Python to record pupil coordinates.",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "appdevelopment",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: tiktok_logo,
+      source_code_link: "https://github.com/vrushabhh97/tiktok_clone",
     },
     {
-      name: "Job IT",
+      name: "Netflix Clone App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A Netflix clone app built with Swift and UIKit, featuring dynamic content tabs, movie trailers, and a searchable library for an engaging user experience.",
       tags: [
         {
-          name: "react",
+          name: "swiftui",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "api",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "uitoolkit",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: netflix_logo,
+      source_code_link: "https://github.com/vrushabhh97/NETFLIX_CLONE",
     },
     {
-      name: "Trip Guide",
+      name: "Expense Tracker",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Expense Tracker app, built with Flutter, leverages Hive for data storage and Provider for state management, offering an intuitive interface for managing personal finances. It features dynamic visual summaries, swipe-to-delete expense records, and insightful weekly spending analyses, providing a seamless and efficient budgeting tool.",
       tags: [
         {
-          name: "nextjs",
+          name: "hivedatabase",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "flutter",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "graphs",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/vrushabhh97/EXPENSE_TRACKER",
     },
   ];
   

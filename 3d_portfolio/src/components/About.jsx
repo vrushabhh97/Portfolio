@@ -42,11 +42,11 @@ const About = () => {
 
       <motion.p variants={fadeIn("","",0.1,1)}
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a skilled software developer with experience in TypeScript and 
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a versatile software developer with a strong foundation in both backend and frontend technologies, including Java, Python, C++, JavaScript, 
+        and frameworks like React, Node.js, and Flutter. My experience spans developing scalable AI-driven applications, immersive VR games, and high-performance
+        deep learning models. I've contributed to innovative projects, such as creating a TikTok-like app for research purposes, designing a robust distributed message broker,
+        and engineering a CNN-based traffic sign recognition system with high accuracy. With a passion for learning and a knack for problem-solving, I'm excited to build cutting-edge 
+        solutions that drive meaningful impact. Let's turn your vision into reality!
       </motion.p>
       
       <div className='mt-20 flex flex-wrap gap-10'>
