@@ -135,7 +135,7 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "September 2023 - September 2024",
     points: [
-      "Developed a solution using FisheyeViT to convert 2D fisheye images into 3D heatmaps, enabling accurate egocentric 3D pose estimation.",
+      "Researched 3D human body mesh reconstruction from egocentric images, focusing on data collection and model development.",
       "Built a reusable Android/iOS TikTok clone app with Flutter SDK for research on sludge video content, featuring facial data recording, user interaction data capture, and integrated gaze tracking using Python to record pupil coordinates.",
       "Performed comprehensive data analysis using SPSS on app-recorded and Qualtrics data, including covariance analysis, t-tests for significance, and principal component analysis, and visualized results with Python.",
       "Created an immersive VR escape room game using Unity 3D engine and C++, incorporating advanced gameplay elements such as grabbable and destructible objects, sockets, puzzles, and teleportation.",
