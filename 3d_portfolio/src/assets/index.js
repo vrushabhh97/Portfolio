@@ -27,6 +27,7 @@ import starbucks from "./company/starbucks.png";
 import scu_logo from "./company/scu_logo.png";
 import geenuity_logo from "./company/geenuity_logo.jpeg";
 import birlasoft_logo from "./company/birlasoft_logo.svg";
+import leaf from "./company/leaf.png";
 import tesla from "./company/tesla.png";
 import netflix_logo from "./netflix_logo.png";
 
@@ -34,6 +35,7 @@ import carrent from "./carrent.png";
 import tiktok_logo from "./tiktok_logo.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bar_logo_1 from "./bar_logo_1.png";
 
 export {
   logo,
@@ -69,4 +71,6 @@ export {
   jobit,
   tripguide,
   netflix_logo,
+  bar_logo_1,
+  leaf,
 };
