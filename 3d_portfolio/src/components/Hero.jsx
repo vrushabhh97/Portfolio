@@ -1,10 +1,22 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import videoBg from "../assets/hero-video.mp4";
+
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
+      <div className="absolute inset-0 w-full h-full bg-primary">
+      <video 
+        className="absolute inset-0 object-cover w-full h-full filter invert mix-blend-screen" 
+        src={videoBg} 
+        autoPlay 
+        loop 
+        muted 
+        playsInline
+      />
+      </div>
       <div
         className={`${styles.paddingX} absolute inset-0 
       top-[120px] max-auto flex flex-row items-start gap-5`}
