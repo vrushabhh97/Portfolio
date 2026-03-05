@@ -47,11 +47,6 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  {
-    id: "resume",
-    title: "Resume",
-    href: "/resume/VrushabhResume.pdf",
-  },
 ];
 
 const services = [
